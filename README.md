@@ -20,9 +20,7 @@ This project uses tools and agent-to-agent handoffs to plan a complete travel ex
 
 ```
 ai-travel-designer-agent/
-│
-├── travel_tools.py        # Tools used by agents (flights, hotels, food)
-├── agents_setup.py        # Registers all 3 custom agents
+│       
 ├── main.py                # Main agent + runner logic for handoffs
 ├── .env                   # OpenAI API Key stored here
 └── README.md              # Full project documentation
